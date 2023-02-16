@@ -811,7 +811,7 @@ footer .wave#wave4 {
   margin: 50px auto;
   width: 800px;
   height: 200px;
-  background-image: url('../img/mision.jpg');
+  background-image: url('../imagenes/delivery.png');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -825,7 +825,7 @@ footer .wave#wave4 {
   margin: 50px auto;
   width: 800px;
   height: 200px;
-  background-image: url('../img/vision.jpg');
+  background-image: url('../imagenes/garantia.png');
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -995,10 +995,11 @@ footer .wave#wave4 {
   position: absolute;
   left: 32px;
   top: 60px;
+  font-size: 20px;
   width: 82%;
   line-height: 20px;
   word-spacing: 1px;
-  color: #f9f9f9;
+  color: #ff0000;
   text-align: justify;
   opacity: 0;
   transition: .2s ease-out;
