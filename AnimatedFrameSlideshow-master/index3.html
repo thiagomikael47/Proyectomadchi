@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<meta name="description" content="A slideshow that shows an animated SVG frame on the transitions between slides" />
+		<meta name="keywords" content="slideshow, javascript, frame, animation, svg, shape, path, web design
+		<meta name="author" content="Codrops" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+		integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="pater/pater.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body class="demo-3 loading">
+		<header>
+      <div class="contenedor">
+        <nav class="menu">
+          <div class="menu__container">
+            <div class="container__logo">
+              <img src="./imagenes/logomadshi.png" id="" alt="logo ameyri joyeria">
+            </div>
+            <ul class="menu__links">
+              <li class="menu__item">
+                <a href="./index.html" class="menu__link">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="./paginas/nosotros.html" class="menu__link">Empresa</a>
+              </li>
+              <li class="menu__item  menu__item--show">
+                <a href="./paginas/catalogo.html" class="menu__link">Catalogo</a>
+              </li>
+              <li class="menu__item">
+                <a href="./paginas/exclusivos.html" class="menu__link">Servicios</a>
+              </li>
+              <li class="menu__item">
+                <a href="https://api.whatsapp.com/send?phone=51934709652&text=Hola,quiaiera consultar por sus servicos dentales" class="menu__link">Contactanos <i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+            </ul>
+            <div class="menu__hamburguer">
+              <img src="./imagenes/icons8-menú-48.png"class="menu__img">
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+		<main>
+			<div class="contenedor">
+        <a href="https://api.whatsapp.com/send?phone=51958757270&text=Hola,Hola somos Distribuidora Madshi S.A.C ,consulta nuestros productos"
+          class="btn-wsp" target="_blank">
+          <i class='bx bxl-whatsapp'></i>
+        </a>
+      </div>
+			<div class="slideshow">
+				<div class="slides">
+					<div class="slide slide--current">
+						<div class="slide__img" style="background-image: url(img/17.jpg)"></div>
+						<h2 class="slide__title">Dazzling</h2>
+						<p class="slide__desc">The main challenge is finding the right balance.</p>
+						<a class="slide__link" href="#">Discover more</a>
+					</div>
+					<div class="slide">
+						<div class="slide__img" style="background-image: url(img/18.jpg)"></div>
+						<h2 class="slide__title">Brilliant</h2>
+						<p class="slide__desc">Put the right minds together and imagine infinity.</p>
+						<a class="slide__link" href="#">Find inspiration</a>
+					</div>
+					<div class="slide">
+						<div class="slide__img" style="background-image: url(img/19.jpg)"></div>
+						<h2 class="slide__title">Sensational</h2>
+						<p class="slide__desc">Extremes are easy. Strive for balance.</p>
+						<a class="slide__link" href="#">Find out more</a>
+					</div>
+					<div class="slide">
+						<div class="slide__img" style="background-image: url(img/20.jpg)"></div>
+						<h2 class="slide__title">Vibrant</h2>
+						<p class="slide__desc">The purest minds are those which love color the most.</p>
+						<a class="slide__link" href="#">Paint your future</a>
+					</div>
+				</div>
+				<nav class="slidenav">
+					<button class="slidenav__item slidenav__item--prev">Previous</button>
+					<span>/</span>
+					<button class="slidenav__item slidenav__item--next">Next</button>
+				</nav>
+			</div>
+			<section class="container__valores">
+        <div class="contenedor">
+          <div class="content">
+            <div class="grid">
+              <figure class="effect-oscar">
+                <img src="./imagenes/Valor1.webp" alt="img09"/>
+                <figcaption>
+                  <h2>Madshi <span>-Calidad</span></h2>
+                  <p>Contamos con productos que garantizan su duracion en su uso ya que nos patrocinan marcas reconocidas asi garantizamos nuestra calidad de nuestros productos.</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+              <figure class="effect-oscar">
+                <img src="./imagenes/Valor2.jpg" alt="img10"/>
+                <figcaption>
+                  <h2>Madshi <span>-Garantia</span></h2>
+                  <p>La calidad de nuestros productos es nuestra mas grande garantia para la fidelidad de nuestros clientes.</p>
+                  <a href="#">View more</a>
+                </figcaption>			
+              </figure>
+            </div>
+            <div class="grid">
+              <figure class="effect-oscar">
+                <img src="./imagenes/Valor3.webp" alt="img09"/>
+                <figcaption>
+                  <h2>Madshi <span>-Seguridad</span></h2>
+                  <p>Brindamos la seguridad al momento de nuestras entregas a nivel Nacional y que nuestros cientes tengan la confianza de la entrega de sus productos.</p>
+                  <a href="#">View more</a>
+                </figcaption>
+              </figure>
+              <figure class="effect-oscar">
+                <img src="./imagenes/Valor4.jpg" alt="img10"/>
+                <figcaption>
+                  <h2>Madshi <span>-Ahorro</span></h2>
+                  <p>En Madshi tratamos de que nuestros productos tenga un pecio economico para lograr contar con su apoyo en nuestro creciemiento.</p>
+                  <a href="#">View more</a>
+                </figcaption>	
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+			<Section class="container__productos">
+        <div class="contenedor">
+        <div class="container__cards">
+          <div class="container__imgservicio">
+            <img src="./imagenes/productosmadshi.png" alt="Tratamiento corporales">
+          </div>
+          <div class="conatiner__servicio">
+            <div class="info_servicio">
+              <p class="servico_titulo_superior">Distribuidora </p>
+              <p class="servico_titulo_inferopr"> Madshi</p>
+              <p class="servicio__contenido">Contamos con una variedad de productos ferreteros  para la construccion y remodelacion de su hogar , nosotros siempre pensamos en nuestros clientes brindandoles productos con garantia , para mantener su confiabilidad con nosotros</p>
+            </div>
+            <div class="pseudo__btn">
+              <a href="#" class="botoom_paginas">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                Catalogo <i class="fa-solid fa-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        </div>
+      </Section>
+			<section class="container__atencion">
+        <H2>Atendemos en  <span>Lima y todo el Peru</span></H2>
+        <div class="contenedor">
+          <div class="atencion__content">
+            <div class="atencion">
+              <img src="./imagenes/peru.png" alt="">
+              <p>Empresa 100% peruana</p>
+            </div>
+            <div class="atencion">
+              <img src="./imagenes/delivery.png" alt="">
+              <p>Envios express</p>
+            </div>
+            <div class="atencion">
+              <img src="./imagenes/garantia.png" alt="">
+              <p>Productos con garantias</p>
+            </div>
+            <div class="atencion">
+              <img src="./imagenes/precios.png" alt="">
+              <p>Mejores precios</p>
+            </div>
+            <div class="atencion">
+              <img src="./imagenes/tarjeta.png" alt="">
+              <p>Cualquier tipo de pago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+			<div class="contenedor">
+        <div class="carrusel-imagenes">
+          <div class="carrusel-items">
+            <div class="carrusel-item">
+              <img src="./imagenes/Italgrif.png" alt="" />
+            </div>
+            <div class="carrusel-item">
+              <img src="./imagenes/Metusa.jpg" alt="" />
+            </div>
+            <div class="carrusel-item">
+              <img src="./imagenes/Trebol.jpg" alt="" />
+            </div>
+            <div class="carrusel-item">
+              <img src="./imagenes/Vainsa.jpg" alt="" />
+            </div>
+            <div class="carrusel-item">
+              <img src="./imagenes/Oatey.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+		</main>
+		<footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+        </div>
+      <div class="container">
+        <div class="content__footer">
+          <div class="profil">
+            <div class="logo__area">
+              <img src="./imagenes/logomadshi.png" alt="">
+            </div>
+            <div class="desc__area">
+              <p>Ser el lider del mercado y ser reconocido en los mercados donde opera por la calidad y diversidad de productos, como tambien soluciones que se ofrecen en el sector ferretero , tanto a nivel nacional e internacional.</p>
+            </div>
+            <div class="socail__media">
+              <a href="https://api.whatsapp.com/send?phone=51958757270&text=Hola,Hola somos Distribuidora Madshi S.A.C ,consulta nuestros productos"><i class='bx bxl-whatsapp'></i></box-icon></a>
+              <a href="https://www.facebook.com/people/Madshi-SAC-Distribuidora-Ferretera/100071571588403/?mibextid=ZbWKwL"><i class='bx bxl-facebook'></i></a>
+              <a href="https://www.instagram.com/madshisac/?igshid=YmMyMTA2M2Y%3D"><i class='bx bxl-instagram'></i></a>
+              <a href="https://www.tiktok.com/@user609178174504noemi?_t=8ZnlAnTM7Wg&_r=1"><i class='bx bxl-tiktok'></i></a>
+            </div>
+          </div>
+          <div class="service__area">
+            <ul class="service__header">
+              <li class="service_name">Madshi Distribuidora</li>
+              <li><a href="">Home</a></li>
+              <li><a href="">Empresa</a></li>
+              <li><a href="">Catalogo</a></li>
+              <li><a href="">Servicios </a></li>
+            </ul>
+            <ul class="service__header">
+              <li class="service_name">Contacto :</li>
+              <li><a href="">Correo Electronico : noemi.delasotamontes@gmail.com</a>
+              <li><a href="">Telefono : 958757270</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+		<script src="js/main.js"></script>
+		<script src="js/carrusel.js"></script>
+		<script src="js/demo.js"></script>
+		<script src="js/imagesloaded.pkgd.min.js"></script>
+		<script src="js/anime.min.js"></script>
+		<script src="js/demo3.js"></script>
+	</body>
+</html>
